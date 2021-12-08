@@ -1,0 +1,3 @@
+docker network springcloud
+docker build -t intellisense-test-service:v1 . 
+### docker run -P --name intellisense-test --network springcloud -d intellisense-test-service:v1
